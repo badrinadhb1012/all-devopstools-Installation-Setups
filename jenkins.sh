@@ -9,9 +9,8 @@ systemctl status jenkins
 
 #After Installation , we get the jenkins dashabord , in that  leftside BUILD EXECUTOR STATUS gets failed in that time we need to increase the tmp size
 # normally the tmp size is below 500M , now by using the command we need change to 4gb
-commands to change
+#commands to change
 df -h --> sudo rm -rf /tmp/* --> sudo mount -o remount,size=4G /tmp After by using df -h command it get tmps value is 4gb.
 
-Now restart the jenkins --> systemctl restart jenkins and
+#Now restart the jenkins --> systemctl restart jenkins and
 check the jenkins --> systemctl status jenkins 
-updated on 12/08/26
