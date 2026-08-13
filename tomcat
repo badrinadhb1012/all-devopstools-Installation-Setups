@@ -1,3 +1,5 @@
+#Every time we need to Update the version java and tomcat by offical documentation 
+
 yum install java-21-amazon-corretto -y
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.120/bin/apache-tomcat-9.0.120.tar.gz
 tar -zxvf apache-tomcat-9.0.120.tar.gz
